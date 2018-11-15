@@ -2,157 +2,324 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Online Shop For Bags</title>
-    
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>portfolio</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- materialize icons link -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- font owesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    <!-- main style sheet -->
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- data script file -->
-    <script type="text/JavaScript" src="data.js"></script>
-    <!-- main script file -->
-    <script type="text/JavaScript" src="script.js"></script>
-    
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- materialize icons link -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- font owesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+  <!-- main style sheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- data script file -->
+  <script type="text/JavaScript" src="data.js"></script>
+  <!-- main script file -->
+  <script type="text/JavaScript" src="script.js"></script>
+
+
+
 </head>
 
-<body onload="initialize()">
-    <!-- navbar -->
+<body>
+  <!-- navbar -->
+  <nav>
+
     <nav>
-      <div class="nav-wrapper ">
-        <a href="#!" class="brand-logo">Fasion Bags</a>
+      <div class="nav-wrapper">
+
+        <!-- for hamberger -->
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Beauty</a></li>
-          <li><a href="badges.html">Accessories</a></li>
-          <li><a href="collapsible.html">contact</a></li>
-        
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="#selected-work">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+
         </ul>
+
+        <div class="header-icon">
+          <button><i class="fab fa-facebook-f fa-fw fa-lg"></i></button>
+          <button><i class="fab fa-twitter fa-fw fa-lg"></i></button>
+          <button><i class="fab fa-instagram fa-fw fa-lg"></i></button>
+
+        </div>
+
       </div>
     </nav>
-  
+
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Beauty</a></li>
-      <li><a href="badges.html">Accessories</a></li>
-      <li><a href="collapsible.html">contact</a></li>
+      <li><a href="">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="">BLOG</a></li>
+      <li><a href="#selected-work">PORTFOLIO</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+
     </ul>
- <!-- cover photo -->
 
- <div class="main-container">
-  <div class="first-container">
-    <div class="cover-photo">
+    <!-- SLIDER  -->
 
 
-      <div class="card">
-        <div class="card-image">
-          <img src="images/bg4.jpg">
-          <span class="card-title">Quality never goes out of styleee...</span>
-        </div>
-
-      </div>
-
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="images/img1.jpg">
+          <div class="caption center-align">
+            <h3>Shefy design</h3>
+            <h5 class="light grey-text text-lighten-3">Design your dreams</h5>
+            <h6> Composition is the arrangement of design elements that form a whole image. A successful composition
+              attracts the viewer and guides their eye across the design. In visual art, you might hear this referred
+              to as “form.” In graphic design, it’s often called layout. Composition is made up of a number of
+              different visual design elements, including balance, proximity, alignment, repetition, contrast and white
+              space.</h6>
+            <a class="waves-effect waves-light btn">View Portfolio</a>
+            <a href="#about"><i class="fas fa-arrow-down"></i></a>
+          </div>
+        </li>
+        <li>
+          <img src="images/img3.jpg">
+          <div class="caption center-align">
+            <h3>Shefy design</h3>
+            <h5 class="light grey-text text-lighten-3">Design your dreams</h5>
+            <h6> Composition is the arrangement of design elements that form a whole image. A successful composition
+              attracts the viewer and guides their eye across the design. In visual art, you might hear this referred
+              to as “form.” In graphic design, it’s often called layout. Composition is made up of a number of
+              different visual design elements, including balance, proximity, alignment, repetition, contrast and white
+              space.</h6>
+            <a id="left-button" class="waves-effect waves-light btn">View Portfolio</a>
+            <a href="#about"><i class="fas fa-arrow-down center-align"></i></a>
+          </div>
+        </li>
+        <li>
+          <img src="images/img2.jpg">
+          <div class="caption center-align">
+            <h3>Shefy design</h3>
+            <h5 class="light grey-text text-lighten-3">Design your dreams</h5>
+            <h6> Composition is the arrangement of design elements that form a whole image. A successful composition
+              attracts the viewer and guides their eye across the design. In visual art, you might hear this referred
+              to as “form.” In graphic design, it’s often called layout. Composition is made up of a number of
+              different visual design elements, including balance, proximity, alignment, repetition, contrast and white
+              space.</h6>
+            <a id="right-button" class="waves-effect waves-light btn">View Portfolio</a>
+            <a href="#about"><i class="fas fa-arrow-down"></i></a>
+          </div>
+        </li>
+        <li>
+          <img src="images/img7.jpg">
+          <div class="caption center-align">
+            <h3>Shefy design</h3>
+            <h5 class="light grey-text text-lighten-3">Design your dreams</h5>
+            <h6> Composition is the arrangement of design elements that form a whole image. A successful composition
+              attracts the viewer and guides their eye across the design. In visual art, you might hear this referred
+              to as “form.” In graphic design, it’s often called layout. Composition is made up of a number of
+              different visual design elements, including balance, proximity, alignment, repetition, contrast and white
+              space.</h6>
+            <a class="waves-effect waves-light btn">View Portfolio</a>
+            <a href="#about"><i class="fas fa-arrow-down"></i></a>
+          </div>
+        </li>
+      </ul>
     </div>
 
+    <!-- ---------------------------------about-------------------- -->
 
-  </div>
-
-<div class="second-container">
-  
-  <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="images/slider1.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light teal-text text-lighten-3">Uniquely Like Your Choice.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="images/slider2.jpg"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Uniquely Like Your Choice.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="images/slider3.jpg"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Uniquely Like Your Choice.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="images/slider4.jpg"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Uniquely Like Your Choice.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
- </div>
-
-      <!-- cards -->
-
-      <div class="card-container">
-        
-        <!-- <div class="card">
-         
-        
-        </div> -->
-     
-      </div>
-
-      <!-- footer -->
-      <footer class="page-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h5 class="white-text">HOW TO BUY</h5>
-              <p class="grey-text text-lighten-4">Registration</p>
-              <p class="grey-text text-lighten-4">Payment</p>
-              <p class="grey-text text-lighten-4">Tracking Order</p>
+    <div id="about">
+      <div class="row paddingAll">
+        <div class="col  m4">
+          <div class="card deep-orange">
+            <div class="card-content white-text">
+              <span><i class="fas fa-lightbulb"></i></span>
+              <span class="card-title">Idea</span>
+              <p>You don't make progress by standing on the sidelines,whimpering and complaining.You make progress by
+                implementing ideas.A creative man is motivated by the desire to achieve, not by the desire to beat
+                others.
+              </p>
             </div>
-            <div class="col ">
-              <h5 class="white-text">ABOUT FASION BAG</h5>
-              <p class="grey-text text-lighten-4">About Us</p>
-              <p class="grey-text text-lighten-4">Our Background</p>
-              <p class="grey-text text-lighten-4">What We Do</p>
-            </div>
-            <div class="col ">
-              <h5 class="white-text">HELP CENTER</h5>
-              <p class="grey-text text-lighten-4">Contact us</p>
-            </div>
-            <div class="col">
-              <h5 class="white-text">STAY CONNECTED</h5>
-          
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook-square"></i></a></li>
-                <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-twitter-square"></i></a></li>
-                <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram"></i></a></li>
-                <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-google-plus"></i></a></li>
-              </ul>
-  
-            </div>
-          
+
           </div>
         </div>
-      
-      </footer>
-          
-       
+        <div class="col  m4">
+          <div class="card deep-orange ">
+            <div class="card-content white-text">
+              <span><i class="fas fa-comment-alt"></i></span>
+              <span class="card-title">Talk</span>
+              <p>You don't make progress by standing on the sidelines,whimpering and complaining.You make progress by
+                implementing ideas.A creative man is motivated by the desire to achieve, not by the desire to beat
+                others.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col  m4">
+          <div class="card deep-orange ">
+            <div class="card-content white-text">
+              <span><i class="fas fa-gem"></i></span>
+              <span class="card-title">SKETCH</span>
+              <p>You don't make progress by standing on the sidelines,whimpering and complaining.You make progress by
+                implementing ideas.A creative man is motivated by the desire to achieve, not by the desire to beat
+                others.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col  m4">
+          <div class="card deep-orange ">
+            <div class="card-content white-text">
+              <span><i class="fas fa-tv"></i></span>
+              <span class="card-title">WIREFRAME</span>
+              <p>You don't make progress by standing on the sidelines,whimpering and complaining.You make progress by
+                implementing ideas.A creative man is motivated by the desire to achieve, not by the desire to beat
+                others.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col  m4">
+          <div class="card deep-orange ">
+            <div class="card-content white-text">
+              <span><i class="fas fa-pencil-alt"></i></span>
+              <span class="card-title">DESIGN</span>
+              <p>You don't make progress by standing on the sidelines,whimpering and complaining.You make progress by
+                implementing ideas.A creative man is motivated by the desire to achieve, not by the desire to beat
+                others.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col  m4">
+          <div class="card deep-orange ">
+            <div class="card-content white-text">
+              <span><i class="fas fa-code"></i></span>
+              <span class="card-title">CODE</span>
+              <p>You don't make progress by standing on the sidelines,whimpering and complaining.You make progress by
+                implementing ideas.A creative man is motivated by the desire to achieve, not by the desire to beat
+                others.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------   selected work  ----------------------------------------------->
+    <div id="selected-work">
+      <div class="design">
+        <span>
+          <h1>Selected Work</h1>
+        </span>
+        <span class="selected-button">
+          <a class="waves-effect waves-light btn">ALL</a>
+          <a class="waves-effect waves-light btn">BLOG</a>
+          <a class="waves-effect waves-light btn">LOGO</a>
+          <a class="waves-effect waves-light btn">GRAPICHS</a>
+          <a class="waves-effect waves-light btn">DESIGN</a>
+        </span>
+      </div>
+      <!-----------------------    images of portfolio  ------------------------------------------------>
+
+      <div class="images-detail">
+
+        <div class="flex">
+          <div class="row">
+            <div class="col ">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/drop.png">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="col ">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/face.png">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------------second----------------------------------------- -->
+        <div class="flex">
+          <div class="row">
+            <div class="col ">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/logo.png">
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col ">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/ptag.png">
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------------footer----------------------- -->
+
+      <div id="contact">
+
+        <div class="row ">
+          <div class="col s12 center-align">
+            <h5>GET IN TOUCH</h5>
+          </div>
+          <div style="text-align: center">
+            <div class="col s12 m6">
+              <div class="information">
+                <div class="name">
+                  <input type="text" placeholder="Name">
+                </div>
+                <div class="email">
+                  <input type="text" placeholder="Email">
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="massege">
+                <div class="message-type">
+                  <input type="text" placeholder="Massege">
+                </div>
+  
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 center-align "><a class="waves-effect waves-light btn submitButton">Submit</a></div>
+        </div>
+
+      </div>
+
+
 </body>
 
 </html>
